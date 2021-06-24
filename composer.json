@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "bug/doctrine",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bug\\Doctrine\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Bug.Doctrine"
+        }
+    }
+}
